@@ -1,11 +1,19 @@
-//
-//  main.swift
-//  homework333
-//
-//  Created by 지구9 on 24/10/22.
-//
+print("Ведите первое число")
+var number = Int(readLine()!)
+print("Ведите второк число")
+var number1 = Int(readLine()!)
+print("Выберите операцию: +, -, /, *")
+var console = readLine()
 
-import Foundation
-
-print("Hello, World!")
+switch console {
+case "+":
+    print(number! + number1!)
+case "-":
+    print(number! - number1!)
+case "/":
+    print(number! / number1!)
+case "*":
+    print(number! * number1!)
+default: break
+}
 
